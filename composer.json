@@ -1,0 +1,24 @@
+{
+    "name": "wlfrm/twitter-bootstrap",
+    "type": "symfony-bundle",
+    "description": "TwitterBootstrap as an asset using symfony2",
+    "keywords": ["twitter", "bootstrap", "symfony", "symfony2", "bundle", "less", "css"],
+    "license": "MIT",
+    "version": "master",
+    "authors": [
+        {
+            "name": "Socolov Vladimir",
+            "email": "socolov.vladimir@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Wlfrm\\Bundle\\TwitterBootstrapBundle": ""
+        }
+    },
+    "target-dir": "Wlfrm/Bundle/TwitterBootstrapBundle",
+    "require": {
+        "symfony/symfony": ">=2.0",
+        "leafo/lessphp": "*"
+    }
+}
